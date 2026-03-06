@@ -1,0 +1,29 @@
+program run step by step
+
+1. input sentence:
+for duplicated text 
+
+input>> This is is a  duplicated duplicated sentence.
+click>> Process
+show table with wrong word(3).
+output>> This is a duplicated sentence ./ CER result/ WER result/ Confidence(%)
+
+Stopwords Removal Test
+
+input>>This is a sample sentence for testing the stopwords removal feature.
+click>>Remove stopwords checkbox
+click>> Process
+show table with wrong word
+output>> Sample sentence testing stopwords removal feature ./ CER result/ WER result/ Confidence(%)
+
+Lemmatization Test
+
+input>>The cats are running and playing in the gardens.
+click>>Apply lemmatization checkbox
+click>> Process
+show table with wrong word
+output>>The cat be run and play in the garden ./ CER result/ WER result/ Confidence(%)
+
+
+
+
